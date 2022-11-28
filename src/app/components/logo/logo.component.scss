@@ -1,0 +1,27 @@
+.logo_container {
+    .waviy {
+        position: relative;
+        letter-spacing: 1px;
+        span {
+            mix-blend-mode: difference;
+            -webkit-transition: 1.5s ease-in-out;
+            transition: 1.5s ease-in-out;
+            position: relative;
+            display: inline-block;
+            font-size: 28px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #fff;
+            text-transform: uppercase;
+            animation: flip 4s infinite;
+            animation-delay: calc(.2s * var(--i));
+            font-family: 'Saira', sans-serif;
+        }
+    }
+}
+
+@keyframes flip {
+    0%, 80% {
+        transform: rotateY(360deg);
+    }
+}
