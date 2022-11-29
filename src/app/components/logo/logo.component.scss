@@ -1,7 +1,13 @@
 .logo_container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    img {
+        height: 60px;
+    }
     .waviy {
         position: relative;
-        letter-spacing: 1px;
+        letter-spacing: -2px;
         span {
             mix-blend-mode: difference;
             -webkit-transition: 1.5s ease-in-out;

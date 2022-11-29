@@ -1,21 +1,23 @@
 footer {
     width: 100%;
-    background: #ede8e4;
+    background: #fff;
+    // background: #ede8e4;
     padding: 60px 100px 20px 100px;
     .top_container {
         width: 100%;
         display: flex;
         padding-bottom: 50px;
         .logo {
-            width: 16%;
+            width: 17%;
             margin-right: 4%;
         }
         .comp_details {
-            width: 26%;
+            width: 25%;
             margin-right: 4%;
         }
         .address {
             width: 25%;
+            padding-right: 20px;
         }
         .products {
             width: 25%;

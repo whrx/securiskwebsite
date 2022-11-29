@@ -5,6 +5,12 @@ header {
     gap: 50px;
     align-items: center;
     justify-content: space-between;
+    .logo {
+        img {
+            height: 60px;
+            width: 160px;
+        }
+    }
     .nav_container {
         // flex: 1;
         background: #fff;
@@ -18,7 +24,7 @@ header {
             padding: 20px 30px;
             flex: 1;
             li {
-                &.active {
+                &.active, &:hover {
                     &::after {
                         content: '';
                         width: 100%;

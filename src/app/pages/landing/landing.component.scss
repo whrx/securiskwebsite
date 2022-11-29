@@ -3,9 +3,9 @@
     position: relative;
     section {
         .banner {
-            margin-top: -90px;
             background-color: #eeeeee;
-            background-image: url('https://cdn.myportfolio.com/7df26c7f2dab767f7af58dee235d0f68/e43b5ad9-19c6-4baf-bd54-74b0589858ad_rwc_0x0x3508x4551x4096.jpg?h=c1066c63f9dcefd67dac2197f0bcf9c4');
+            // background-image: url('https://cdn.myportfolio.com/7df26c7f2dab767f7af58dee235d0f68/e43b5ad9-19c6-4baf-bd54-74b0589858ad_rwc_0x0x3508x4551x4096.jpg?h=c1066c63f9dcefd67dac2197f0bcf9c4');
+            background-image: url('/assets/banner.jpeg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -26,7 +26,7 @@
         }
         .header {
             padding: 0 10px;
-            background: rgba(0, 0, 0, .7);
+            background: #fff;
             position: sticky;
             top: 0;
             z-index: 10;
