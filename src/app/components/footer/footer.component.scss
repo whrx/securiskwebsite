@@ -2,7 +2,7 @@ footer {
     width: 100%;
     background: #fff;
     // background: #ede8e4;
-    padding: 60px 100px 20px 100px;
+    padding: 60px 80px 20px;
     .top_container {
         width: 100%;
         display: flex;
@@ -49,12 +49,12 @@ footer {
             display: flex;
             gap: 20px;
             list-style: none;
-            font-size: 18px;
+            font-size: 20px;
             li {
                 cursor: pointer;
-                i {
-                    width: 15px;
-                    height: 15px;
+                a {
+                    width: 20px;
+                    height: 20px;
                 }
             }
         }
@@ -69,6 +69,10 @@ footer {
         }
     }
     .bottom_container {
+        .btm_flex {
+            display: flex;
+            justify-content: space-between;
+        }
         p {
             font-size: 13px;
             letter-spacing: 0;
@@ -87,6 +91,47 @@ footer {
                         height: 22px;
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 996px) {
+    footer {
+        .top_container {
+            flex-wrap: wrap;
+            .logo, .comp_details {
+                width: 50%;
+                margin: 0 0 20px;
+            }
+            .address, .products {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    footer {
+        padding: 60px 40px 20px;
+        .top_container {
+            flex-wrap: wrap;
+            .logo, .comp_details, .address {
+                width: 100%;
+                margin: 0 0 20px;
+            }
+            .products {
+                width: 100%;
+            }
+        }
+        .bottom_container {
+            .btm_flex {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+            p {
+                text-align: center;
             }
         }
     }

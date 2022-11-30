@@ -1,10 +1,12 @@
 header {
     width: 100%;
     padding: 15px 30px;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: space-between;
+    .header_container {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
     .logo {
         img {
             height: 60px;
@@ -55,6 +57,13 @@ header {
     }
 }
 
+.mobile_none {
+    display: flex;
+}
+.desktop_none {
+    display: none;
+}
+
 @keyframes translate {
     0% {
         transform: perspective(500px) translate3d(0, 15.67382827px, 0);
@@ -63,5 +72,30 @@ header {
     100% {
         transform: none;
         opacity: 1;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .mobile_none {
+        display: none !important;
+    }
+    .desktop_none {
+        display: block !important;
+    }
+    header {
+        .nav_container {
+            flex: 1 !important;
+            justify-content: flex-end;
+        }
+        .mobile_menu_container {
+            .nav_container {
+                flex: 1;
+                .navs {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
+        }
     }
 }
