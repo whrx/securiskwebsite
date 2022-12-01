@@ -2,29 +2,76 @@ footer {
     width: 100%;
     background: #fff;
     // background: #ede8e4;
-    padding: 60px 80px 20px;
+    padding: 60px 70px 20px;
+    .logo {
+        margin-bottom: 20px;
+    }
     .top_container {
         width: 100%;
         display: flex;
         padding-bottom: 50px;
-        .logo {
-            width: 17%;
-            margin-right: 4%;
-        }
         .comp_details {
-            width: 25%;
-            margin-right: 4%;
-        }
-        .address {
             width: 25%;
             padding-right: 20px;
         }
-        .products {
+        .address, .products {
             width: 25%;
+            padding-right: 20px;
+        }
+        .chat_container {
+            width: 25%;
+            form {
+                width: 100%;
+                div {
+                    display: flex;
+                    gap: 10px;
+                    margin-bottom: 10px;
+                    input {
+                        height: 40px;
+                        width: calc(50% - 5px);
+                        flex: 1;
+                        border: none;
+                        outline: none;
+                        background: transparent;
+                        border-bottom: 1px solid #31302f;
+                        color: #31302f;
+                        &::placeholder {
+                            color: #31302f;
+                        }
+                        &:hover, &:focus {
+                            border-bottom: none;
+                        }
+                    }
+                    textarea {
+                        width: 100%;
+                        margin-top: 20px;
+                        border: 2px solid #31302f;
+                        padding: 10px 10px 10px 15px;
+                        color: #31302f;
+                        outline: none;
+                        &::placeholder {
+                            color: #31302f;
+                        }
+                    }
+                }
+                button {
+                    margin-left: auto;
+                    display: block;
+                    margin-top: 20px;
+                    width: 100px;
+                    height: 36px;
+                    border: none;
+                    outline: none;
+                    background: #31302f;
+                    border-radius: inherit;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
         }
     }
     .bottom_container {
-        padding-top: 50px;
+        padding-top: 20px;
         border-top: 1px solid #c7c3bf;
     }
     .top_container {
@@ -61,6 +108,7 @@ footer {
         .prod_list {
             list-style: none;
             li {
+                margin-bottom: 15px;
                 &::before {
                     content: "-";
                     padding-right: 5px;
@@ -72,11 +120,13 @@ footer {
         .btm_flex {
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            gap: 20px;
         }
         p {
             font-size: 13px;
             letter-spacing: 0;
-            line-height: 1.2;
+            line-height: 1.4;
         }
         .media {
             ul {
@@ -100,11 +150,11 @@ footer {
     footer {
         .top_container {
             flex-wrap: wrap;
-            .logo, .comp_details {
+            .logo, .comp_details, .address {
                 width: 50%;
                 margin: 0 0 20px;
             }
-            .address, .products {
+            .products, .chat_container {
                 width: 50%;
             }
         }
@@ -116,11 +166,11 @@ footer {
         padding: 60px 40px 20px;
         .top_container {
             flex-wrap: wrap;
-            .logo, .comp_details, .address {
+            .comp_details, .address, .products {
                 width: 100%;
                 margin: 0 0 20px;
             }
-            .products {
+            .chat_container {
                 width: 100%;
             }
         }

@@ -99,3 +99,12 @@ header {
         }
     }
 }
+
+@media (max-width: 400px) {
+    header {
+        padding: 15px;
+        .header_container {
+            gap: 0;
+        }
+    }
+}
