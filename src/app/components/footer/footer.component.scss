@@ -2,8 +2,10 @@ footer {
     width: 100%;
     background: #fff;
     // background: #ede8e4;
-    padding: 60px 70px 20px;
+    padding: 20px 70px;
+    border-top: 2px solid #c7c3bf;
     .logo {
+        cursor: pointer;
         margin-bottom: 20px;
     }
     .top_container {
