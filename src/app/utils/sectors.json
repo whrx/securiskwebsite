@@ -1,0 +1,184 @@
+[
+    {
+      "id": 1,
+      "name": "Aerospace",
+      "img": "https://unisoninsurance.net/images/industries/aerospace.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/aerospace-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/aerospace-icon.png"
+    },
+    {
+      "id": 2,
+      "name": "Agriculture",
+      "img": "https://unisoninsurance.net/images/industries/agriculture.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/agriculture-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/agriculture-icon.png"
+    },
+    {
+      "id": 3,
+      "name": "Automobile",
+      "img": "https://unisoninsurance.net/images/industries/automobile.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/automobile-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/automobile-icon.png"
+    },
+    {
+      "id": 4,
+      "name": "Chemicals & Fertilisers",
+      "img": "https://unisoninsurance.net/images/industries/chemicals-fertilisers.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/chemical-fertilizers-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/chemicals-icon.png"
+    },
+    {
+      "id": 5,
+      "name": "Construction",
+      "img": "https://unisoninsurance.net/images/industries/construction.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/construction-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/construction-icon.png"
+    },
+    {
+      "id": 6,
+      "name": "Consumer Goods",
+      "img": "https://unisoninsurance.net/images/industries/consumer-goods.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/consumer-goods-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/consumer-icon.png"
+    },
+    {
+      "id": 7,
+      "name": "Engineering",
+      "img": "https://unisoninsurance.net/images/industries/engineering.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/engineering-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/engineering-icon.png"
+    },
+    {
+      "id": 8,
+      "name": "Financial Institutions",
+      "img": "https://unisoninsurance.net/images/industries/financial-institutions.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/financial-institutions-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/financial-institutions-icon.png"
+    },
+    {
+      "id": 9,
+      "name": "Hospitality & Real Estate",
+      "img": "https://unisoninsurance.net/images/industries/hospitality-real-estate.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/hospitality-real-estate-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/hospitality-real-estate-icon.png"
+    },
+    {
+      "id": 10,
+      "name": "Information Technology",
+      "img": "https://unisoninsurance.net/images/industries/information-technology.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/information-technology-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/information-technology-icon.png"
+    },
+    {
+      "id": 11,
+      "name": "Jewellery & Specie",
+      "img": "https://unisoninsurance.net/images/industries/jewellery-specie.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/jewellery-specie-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/jewellery-specie-icon.png"
+    },
+    {
+      "id": 12,
+      "name": "Media & Technology",
+      "img": "https://unisoninsurance.net/images/industries/media-technology.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/media-technology-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/media-technology-icon.png"
+    },
+    {
+      "id": 13,
+      "name": "Mining",
+      "img": "https://unisoninsurance.net/images/industries/mining.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/mining-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/mining-icon.png"
+    },
+    {
+      "id": 14,
+      "name": "Power",
+      "img": "https://unisoninsurance.net/images/industries/power.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/power-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/power-icon.png"
+    },
+    {
+      "id": 15,
+      "name": "Oil & Energy",
+      "img": "https://unisoninsurance.net/images/industries/oil-energy.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/oil-energy-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/oil-energy-icon.png"
+    },
+    {
+      "id": 16,
+      "name": "Petro-chemical",
+      "img": "https://unisoninsurance.net/images/industries/petro-chemical.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/petro-chemical-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/petro-chemical-icon.png"
+    },
+    {
+      "id": 17,
+      "name": "Pharmaceutical & Life Sciences",
+      "img": "https://unisoninsurance.net/images/industries/pharmaceutical-life-sciences.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/pharmaceuticals-life-science-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/pharmaceutical-icon.png"
+    },
+    {
+      "id": 18,
+      "name": "Plastic",
+      "img": "https://unisoninsurance.net/images/industries/plastic.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/plastic-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/plastic-icon.png"
+    },
+    {
+      "id": 19,
+      "name": "Ports & Terminals",
+      "img": "https://unisoninsurance.net/images/industries/ports-terminals.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/ports-terminals-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/ports-terminals-icon.png"
+    },
+    {
+      "id": 20,
+      "name": "Renewable Energy",
+      "img": "https://unisoninsurance.net/images/industries/renewable-energy.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/renewable-energy-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/renewable-energy-icon.png"
+    },
+    {
+      "id": 21,
+      "name": "Retail",
+      "img": "https://unisoninsurance.net/images/industries/retail.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/retail-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/retail-icon.png"
+    },
+    {
+      "id": 22,
+      "name": "Rubber",
+      "img": "https://unisoninsurance.net/images/industries/rubber.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/rubber-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/rubber-icon.png"
+    },
+    {
+      "id": 23,
+      "name": "Shipping",
+      "img": "https://unisoninsurance.net/images/industries/shipping.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/shipping-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/shipping-icon.png"
+    },
+    {
+      "id": 24,
+      "name": "Sports & Events",
+      "img": "https://unisoninsurance.net/images/industries/sports-events.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/sports-events-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/sports-events-icon.png"
+    },
+    {
+      "id": 25,
+      "name": "Telecommunication",
+      "img": "https://unisoninsurance.net/images/industries/telecommunication.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/telecommunication-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/telecommunication-icon.png"
+    },
+    {
+      "id": 26,
+      "name": "Transport, Logistics & CFS",
+      "img": "https://unisoninsurance.net/images/industries/transport.jpg",
+      "banner": "https://unisoninsurance.net/images/industries/transport-banner.jpg",
+      "icon": "https://unisoninsurance.net/images/industries/transport-icon.png"
+    }
+  ]

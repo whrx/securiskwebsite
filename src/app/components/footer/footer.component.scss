@@ -111,10 +111,17 @@ footer {
             list-style: none;
             li {
                 margin-bottom: 15px;
-                &::before {
-                    content: "-";
-                    padding-right: 5px;
+                a {
+                    text-decoration: none;
+                    &.active, &:hover {
+                        text-decoration: underline;
+                        cursor: default;
+                    }
                 }
+                // &::before {
+                //     content: "-";
+                //     padding-right: 5px;
+                // }
             }
         }
     }

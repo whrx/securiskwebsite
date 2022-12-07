@@ -1,0 +1,31 @@
+<section>
+    <div style="padding: 0 25px 0;">
+        <div class="banner" *ngIf="showBanner" [ngStyle]="{'background-image': 'url(' + selectedSector.banner + ')'}"></div>
+    </div>
+    <div class="sector_container">
+        <div class="sector">
+            <div class="sector_details">
+                <h5>{{selectedSector.name}}</h5>
+                <p>We have one of the most accomplished teams with sound technical and industry knowledge to help you navigate the complex world of Aerospace & Aviation. Given the demanding nature of the business, we believe you need someone who truly understands your needs and with whom you can develop a long-term relationship.</p>
+                <p>We can provide you with suitable solutions that are tailored to your specific needs and protect you against any risk that you might encounter. Aerospace is a constantly evolving industry, which includes Building and Maintaining Aircrafts, Developing and Improving Existing Equipment supported by research and technical advancement. While this makes Aerospace one of the most prominent industries today, it also poses unique challenges and various magnitudes of risks.</p>
+                <p>At UNISON, our team has extensive experience servicing clients in the industry and continue to be hands on in all aspects involved. We not only protect you against the obvious risks involved, but also reduce your financial exposure to geopolitical issues and new potential liabilities.</p>
+            </div>
+            <div class="key_products">
+                <h6>Key Products Include:</h6>
+                <ul>
+                    <li><img src="https://unisoninsurance.net/images/industries/aerospace-key1.png" alt=""> Hull & Mechinary</li>
+                    <li><img src="https://unisoninsurance.net/images/industries/aerospace-key2.png" alt=""> Business Interruption</li>
+                    <li><img src="https://unisoninsurance.net/images/industries/aerospace-key3.png" alt=""> Third Party Liability</li>
+                    <li><img src="https://unisoninsurance.net/images/industries/aerospace-key4.png" alt=""> Management & Professional Liability</li>
+                    <li><img src="https://unisoninsurance.net/images/industries/aerospace-key5.png" alt=""> Workers’ Compensation</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sectors_list">
+            <h5>Sectors</h5>
+            <ul>
+                <li *ngFor="let item of sectors" [class.active]="item.id == selectedSector.id"><a [routerLink]="['/sector']" [queryParams]="{id: item.id}">{{item.name}}</a></li>
+            </ul>
+        </div>
+    </div>
+</section>

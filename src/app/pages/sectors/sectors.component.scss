@@ -1,0 +1,141 @@
+section {
+    .banner {
+        background-color: #eeeeee;
+        // background-image: url('https://cdn.myportfolio.com/7df26c7f2dab767f7af58dee235d0f68/e43b5ad9-19c6-4baf-bd54-74b0589858ad_rwc_0x0x3508x4551x4096.jpg?h=c1066c63f9dcefd67dac2197f0bcf9c4');
+        background-image: url('https://unisoninsurance.net/images/industries.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        box-pack: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        height: 100vh;
+        max-height: 500px;
+        margin-bottom: 20px;
+        padding-left: 0%;
+        padding-right: 0%;
+        position: relative;
+        h5 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 42px;
+            line-height: 42px;
+            padding: 25px 50px;
+            color: #fff;
+            background: rgba(255, 255, 255, .5);
+            width: 100%;
+            margin: 0;
+        }
+    }
+    .sectors {
+        padding: 0 40px 20px;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                width: calc(33.333% - 13.333px);
+                margin-right: 20px;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+                transition: all .6s linear;
+                &:hover {
+                    img.sector_img {
+                        filter: grayscale(0);
+                        -webkit-filter: grayscale(0);
+                    }
+                    .sector_details {
+                        .sector_name {
+                            color: #f9a51c;
+                        }
+                    }
+                }
+                img.sector_img {
+                    width: 100%;
+                    height: 250px;
+                    filter: grayscale(100%);
+                    -webkit-filter: grayscale(100%);
+                }
+                .sector_details {
+                    padding: 10px 15px;
+                    background: #243a6f;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .sector_name {
+                        font-size: 18px;
+                        line-height: 38px;
+                        color: #fff;
+                    }
+                    .sector_icon {
+                        img {
+                            width: 34px;
+                            height: 37px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 996px) {
+    section {
+        .sectors {
+            ul {
+                li {
+                    &:nth-of-type(3n) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 996px) {
+    section {
+        .sectors {
+            ul {
+                li {
+                    width: calc(50% - 10px);
+                    &:nth-of-type(1n), &:nth-of-type(3n) {
+                        margin-right: 20px !important;
+                    }
+                    &:nth-of-type(2n) {
+                        margin-right: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        .sectors {
+            padding: 20px 0;
+            ul {
+                li {
+                    width: 100%;
+                    &:nth-of-type(1n), &:nth-of-type(2n), &:nth-of-type(3n) {
+                        margin-right: 0px !important;
+                    }
+                    img.sector_img {
+                        height: 280px;
+                    }
+                }
+            }
+        }
+    }
+}

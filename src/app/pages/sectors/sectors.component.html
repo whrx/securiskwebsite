@@ -1,0 +1,22 @@
+<section>
+    <div style="padding: 0 25px 0;">
+        <div class="banner">
+            <h5>Sectors</h5>
+        </div>
+        <div class="sectors">
+            <ul>
+                <li *ngFor="let item of sectors" [routerLink]="['/sector']" [queryParams]="{id: item.id}">
+                    <img class="sector_img" [src]="item.img" alt="">
+                    <div class="sector_details">
+                        <div class="sector_name">{{item.name}}</div>
+                        <div class="sector_icon">
+                            <img [src]="item.icon" alt="">
+                        </div>
+                    </div>
+                </li>
+                <ng-container>
+                </ng-container>
+            </ul>
+        </div>
+    </div>
+</section>
