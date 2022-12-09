@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import sectorData from '../../utils/sectors.json';
 
 @Component({
   selector: 'app-landing',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
+  public sectors: any[] = sectorData;
   constructor() { }
 
   ngOnInit(): void {
