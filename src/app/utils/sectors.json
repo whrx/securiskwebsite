@@ -2,183 +2,190 @@
     {
       "id": 1,
       "name": "Aerospace",
-      "img": "https://unisoninsurance.net/images/industries/aerospace.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/aerospace-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/aerospace-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Faerospace.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Faerospace-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Faerospace-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 2,
       "name": "Agriculture",
-      "img": "https://unisoninsurance.net/images/industries/agriculture.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/agriculture-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/agriculture-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fagriculture.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fagriculture-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fagriculture-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 3,
       "name": "Automobile",
-      "img": "https://unisoninsurance.net/images/industries/automobile.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/automobile-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/automobile-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fautomobile.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fautomobile-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fautomobile-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 4,
       "name": "Chemicals & Fertilisers",
-      "img": "https://unisoninsurance.net/images/industries/chemicals-fertilisers.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/chemical-fertilizers-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/chemicals-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fchemicals-fertilisers.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fchemical-fertilizers-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fchemicals-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 5,
       "name": "Construction",
-      "img": "https://unisoninsurance.net/images/industries/construction.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/construction-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/construction-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fconstruction.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fconstruction-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fconstruction-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 6,
       "name": "Consumer Goods",
-      "img": "https://unisoninsurance.net/images/industries/consumer-goods.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/consumer-goods-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/consumer-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fconsumer-goods.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fconsumer-goods-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fconsumer-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 7,
       "name": "Engineering",
-      "img": "https://unisoninsurance.net/images/industries/engineering.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/engineering-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/engineering-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fengineering.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fengineering-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fengineering-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 8,
       "name": "Financial Institutions",
-      "img": "https://unisoninsurance.net/images/industries/financial-institutions.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/financial-institutions-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/financial-institutions-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ffinancial-institutions.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ffinancial-institutions-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ffinancial-institutions-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 9,
       "name": "Hospitality & Real Estate",
-      "img": "https://unisoninsurance.net/images/industries/hospitality-real-estate.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/hospitality-real-estate-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/hospitality-real-estate-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fhospitality-real-estate.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fhospitality-real-estate-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fhospitality-real-estate-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 10,
       "name": "Information Technology",
-      "img": "https://unisoninsurance.net/images/industries/information-technology.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/information-technology-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/information-technology-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Finformation-technology.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Finformation-technology-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Finformation-technology-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 11,
       "name": "Jewellery & Specie",
-      "img": "https://unisoninsurance.net/images/industries/jewellery-specie.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/jewellery-specie-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/jewellery-specie-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fjewellery-specie.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fjewellery-specie-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fjewellery-specie-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 12,
       "name": "Media & Technology",
-      "img": "https://unisoninsurance.net/images/industries/media-technology.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/media-technology-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/media-technology-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fmedia-technology.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fmedia-technology-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fmedia-technology-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 13,
       "name": "Mining",
-      "img": "https://unisoninsurance.net/images/industries/mining.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/mining-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/mining-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fmining.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fmining-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fmining-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 14,
       "name": "Power",
-      "img": "https://unisoninsurance.net/images/industries/power.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/power-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/power-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpower.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpower-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpower-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 15,
       "name": "Oil & Energy",
-      "img": "https://unisoninsurance.net/images/industries/oil-energy.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/oil-energy-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/oil-energy-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Foil-energy.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Foil-energy-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Foil-energy-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 16,
       "name": "Petro-chemical",
-      "img": "https://unisoninsurance.net/images/industries/petro-chemical.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/petro-chemical-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/petro-chemical-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpetro-chemical.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpetro-chemical-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpetro-chemical-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 17,
       "name": "Pharmaceutical & Life Sciences",
-      "img": "https://unisoninsurance.net/images/industries/pharmaceutical-life-sciences.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/pharmaceuticals-life-science-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/pharmaceutical-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpharmaceutical-life-sciences.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpharmaceuticals-life-science-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fpharmaceutical-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 18,
       "name": "Plastic",
-      "img": "https://unisoninsurance.net/images/industries/plastic.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/plastic-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/plastic-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fplastic.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fplastic-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fplastic-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 19,
       "name": "Ports & Terminals",
-      "img": "https://unisoninsurance.net/images/industries/ports-terminals.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/ports-terminals-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/ports-terminals-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fports-terminals.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fports-terminals-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fports-terminals-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 20,
       "name": "Renewable Energy",
-      "img": "https://unisoninsurance.net/images/industries/renewable-energy.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/renewable-energy-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/renewable-energy-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Frenewable-energy.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Frenewable-energy-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Frenewable-energy-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 21,
       "name": "Retail",
-      "img": "https://unisoninsurance.net/images/industries/retail.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/retail-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/retail-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fretail.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fretail-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fretail-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 22,
       "name": "Rubber",
-      "img": "https://unisoninsurance.net/images/industries/rubber.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/rubber-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/rubber-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Frubber.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Frubber-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Frubber-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 23,
       "name": "Shipping",
-      "img": "https://unisoninsurance.net/images/industries/shipping.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/shipping-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/shipping-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fshipping.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fshipping-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fshipping-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 24,
       "name": "Sports & Events",
-      "img": "https://unisoninsurance.net/images/industries/sports-events.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/sports-events-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/sports-events-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fsports-events.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fsports-events-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fsports-events-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 25,
       "name": "Telecommunication",
-      "img": "https://unisoninsurance.net/images/industries/telecommunication.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/telecommunication-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/telecommunication-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ftelecommunication.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ftelecommunication-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ftelecommunication-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
     },
     {
       "id": 26,
       "name": "Transport, Logistics & CFS",
-      "img": "https://unisoninsurance.net/images/industries/transport.jpg",
-      "banner": "https://unisoninsurance.net/images/industries/transport-banner.jpg",
-      "icon": "https://unisoninsurance.net/images/industries/transport-icon.png"
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ftransport.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ftransport-banner.jpg?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Ftransport-icon.png?alt=media&token=0586d4ae-ea53-44b0-9338-4f57de51a593"
+    },
+    {
+      "id": 27,
+      "name": "Human Resources",
+      "img": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fhuman_resources.jpeg?alt=media&token=0f7a0fcc-d816-422f-a18c-50d7714167b6",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fhuman_resources.jpeg?alt=media&token=0f7a0fcc-d816-422f-a18c-50d7714167b6",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fhuman_resources_icon.jpeg?alt=media&token=7adca6e7-88b7-4a61-9563-9f60af0defb0"
     }
   ]

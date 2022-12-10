@@ -2,7 +2,7 @@ section {
     .banner {
         background-color: #eeeeee;
         // background-image: url('https://cdn.myportfolio.com/7df26c7f2dab767f7af58dee235d0f68/e43b5ad9-19c6-4baf-bd54-74b0589858ad_rwc_0x0x3508x4551x4096.jpg?h=c1066c63f9dcefd67dac2197f0bcf9c4');
-        background-image: url('https://unisoninsurance.net/images/industries.jpg');
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fsectors_banner.jpg?alt=media&token=1130846d-c72c-41b6-8bbd-56f6e8c36d54');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -57,7 +57,7 @@ section {
                     }
                     .sector_details {
                         .sector_name {
-                            color: #f9a51c;
+                            color: var(--secondary-color);
                         }
                     }
                 }

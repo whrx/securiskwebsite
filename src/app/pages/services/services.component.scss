@@ -1,0 +1,57 @@
+section {
+    .banner {
+        background-color: #eeeeee;
+        // background-image: url('https://cdn.myportfolio.com/7df26c7f2dab767f7af58dee235d0f68/e43b5ad9-19c6-4baf-bd54-74b0589858ad_rwc_0x0x3508x4551x4096.jpg?h=c1066c63f9dcefd67dac2197f0bcf9c4');
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fservices_banner.jpeg?alt=media&token=5b30da8d-389f-485d-9a1a-30df4a532f9a');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        box-pack: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center;
+        height: 100vh;
+        max-height: 500px;
+        margin-bottom: 20px;
+        padding-left: 0%;
+        padding-right: 0%;
+        position: relative;
+        h5 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 42px;
+            line-height: 42px;
+            padding: 25px 50px;
+            color: #fff;
+            background: rgba(255, 255, 255, .5);
+            width: 100%;
+            margin: 0;
+        }
+    }
+    .about_us {
+        font-size: 18px;
+        line-height: 28px;
+        width: 95%;
+        margin: auto;
+        padding-bottom: 40px;
+        font-weight: normal;
+        h5 {
+            font-size: 19px;
+            font-weight: 500;
+            color: #000;
+            margin: 20px 0;
+        }
+        ol {
+            list-style-position: inside;
+            li {
+                font-size: 16px;
+            }
+        }
+    }
+}

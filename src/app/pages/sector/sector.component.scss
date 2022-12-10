@@ -30,9 +30,9 @@ section {
             padding-right: 40px;
             .sector_details {
                 h5 {
-                    color: #243a6f;
+                    color: var(--primary-color);
                     font-size: 32px;
-                    font-weight: 600;
+                    font-weight: 500;
                     padding: 0 0 2%;
                     text-transform: capitalize;
                     line-height: 1.1;
@@ -59,7 +59,7 @@ section {
                     margin: 0;
                     padding: 0;
                     list-style: none;
-                    background: url('https://unisoninsurance.net/images/construction-bg.png') no-repeat bottom;
+                    background: url('https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fsectors%2Fsectors_banner.jpg?alt=media&token=1130846d-c72c-41b6-8bbd-56f6e8c36d54') no-repeat bottom;
                     li {
                         display: block;
                         border-bottom: 1px dashed #243a6f;
@@ -81,15 +81,15 @@ section {
             width: 25%;
             h5 {
                 width: 100%;
-                color: #243a6f;
+                color: var(--primary-color);
                 font-size: 22px;
-                font-weight: 700;
+                font-weight: 600;
                 text-transform: uppercase;
                 margin-left: 2px;
                 padding-bottom: 10px;
                 display: inline-block;
                 margin-bottom: 15px;
-                border-bottom: 3px solid #243a6f;
+                border-bottom: 3px solid var(--primary-color);
             }
             ul {
                 list-style: none;
@@ -101,7 +101,7 @@ section {
                     transition: all 300ms ease 0s;
                     &:hover, &.active {
                         a {
-                            color: #f9a51c;
+                            color: var(--secondary-color);
                         }
                     }
                     a {

@@ -24,7 +24,7 @@ section {
     .products {
         width: 100%;
         padding: 60px 0;
-        background-image: url('/assets/landing-bg.jpg');
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Flanding-bg.jpg?alt=media&token=457b157c-397a-4d70-8e96-e588141ae318');
         background-size: cover;
         background-position: center;
         h2 {
@@ -34,7 +34,7 @@ section {
             text-align: center;
             line-height: 1.2;
             strong {
-                color: #ef3139;
+                color: var(--primary-color);
                 font-weight: 600;
             }
         }
@@ -64,7 +64,7 @@ section {
                     align-items: center;
                     padding: 0 10px;
                     &:hover {
-                        background: #ef3139;
+                        background: var(--primary-color);
                         img {
                             filter: brightness(1);
                         }
@@ -75,12 +75,13 @@ section {
                     img {
                         filter: brightness(0.3);
                         width: 44px;
+                        height: 68px;
                         padding: 20px 0 0;
                     }
                     h5 {
                         font-size: 16px;
                         font-weight: 500;
-                        color: #ef3139;
+                        color: var(--primary-color);
                         cursor: pointer;
                         white-space: nowrap;
                         overflow: hidden;

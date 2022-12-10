@@ -2,7 +2,7 @@ section {
     .banner {
         background-color: #eeeeee;
         // background-image: url('https://cdn.myportfolio.com/7df26c7f2dab767f7af58dee235d0f68/e43b5ad9-19c6-4baf-bd54-74b0589858ad_rwc_0x0x3508x4551x4096.jpg?h=c1066c63f9dcefd67dac2197f0bcf9c4');
-        background-image: url('https://firebasestorage.googleapis.com/v0/b/securisk-iwms.appspot.com/o/rfq%2FWhatsApp%20Image%202022-12-01%20at%207.28.40%20PM.jpeg?alt=media&token=f7af9830-2a1b-4f4f-915e-69559eb026fd');
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Fleadership_team_banner.jpeg?alt=media&token=ab5d8f53-0108-4c3a-8f11-8c52eb9a4e62');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -76,7 +76,7 @@ section {
                         width: 100%;
                         height: 100%;
                         background: rgba(0, 0, 0, .5);
-                        color: #ff695a;
+                        color: var(--primary-color);
                         justify-content: flex-end;
                         align-items: flex-end;
                         font-size: 24px;
@@ -128,9 +128,9 @@ section {
                             li {
                                 width: 30px;
                                 height: 30px;
-                                border: 1px solid #ff695a;
+                                border: 1px solid var(--primary-color);
                                 border-radius: 50%;
-                                color: #ff695a;
+                                color: var(--primary-color);
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
