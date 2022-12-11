@@ -12,10 +12,12 @@ import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DisableRightClickDirective } from './disable-right-click.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DisableRightClickDirective
   ],
   imports: [
     BrowserModule,
