@@ -5,7 +5,7 @@
         </div>
         <div class="products">
             <ul>
-                <li *ngFor="let product of products"><a href="">{{product}}</a></li>
+                <li *ngFor="let product of products"><a (click)="showProduct()">{{product}}</a></li>
             </ul>
         </div>
     </div>

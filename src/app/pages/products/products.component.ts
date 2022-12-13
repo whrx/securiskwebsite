@@ -1,4 +1,6 @@
+import { MatDialog } from '@angular/material/dialog';
 import { Component, OnInit } from '@angular/core';
+import { ProductComponent } from 'src/app/components/product/product.component';
 
 @Component({
   selector: 'app-products',
@@ -86,9 +88,17 @@ export class ProductsComponent implements OnInit {
     'Property Insurance',
     'Freight Forwarders Liability'
   ]
-  constructor() { }
+  constructor(private dialog: MatDialog) { }
 
   ngOnInit(): void {
   }
 
+  showProduct() {
+    const dialogRef = this.dialog.open(ProductComponent, {
+      width: "65%",
+      height: "90%",
+      disableClose: true,
+      panelClass: "custom-dialog-container"
+    })
+  }
 }

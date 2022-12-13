@@ -6,13 +6,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LogoComponent } from './logo/logo.component';
 import { LeadershipTeamProfileComponent } from './leadership-team-profile/leadership-team-profile.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
     declarations: [
         HeaderComponent,
         FooterComponent,
         LogoComponent,
-        LeadershipTeamProfileComponent
+        LeadershipTeamProfileComponent,
+        ProductComponent
     ],
     imports: [
         CommonModule,
