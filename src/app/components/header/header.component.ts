@@ -13,4 +13,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToContact() {
+    window.scroll({top: 1000000})
+  }
 }

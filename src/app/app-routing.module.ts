@@ -1,3 +1,4 @@
+import { MaintananceComponent } from './pages/maintanance/maintanance.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { LeadershipTeamComponent } from './pages/leadership-team/leadership-team.component';
@@ -12,11 +13,11 @@ const routes: Routes = [
   {path: '', redirectTo: 'landing', pathMatch: 'full'},
   {path: 'landing', component: LandingComponent},
   {path: 'about-us', component: AboutUsComponent},
-  {path: 'sectors', component: SectorsComponent},
+  {path: 'sectors', component: MaintananceComponent},
   {path: 'sector', component: SectorComponent},
   {path: 'leadership-team', component: LeadershipTeamComponent},
-  {path: 'products', component: ProductsComponent},
-  {path: 'services', component: ServicesComponent},
+  {path: 'products', component: MaintananceComponent},
+  {path: 'services', component: MaintananceComponent},
 ];
 
 @NgModule({

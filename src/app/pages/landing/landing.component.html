@@ -1,7 +1,14 @@
 <section>
     <div style="padding: 0 25px 0;">
-        <div class="banner"></div>
-        <div class="products">
+        <!-- <div class="banner"></div> -->
+        <ngx-slick-carousel class="carousel" 
+                        #slickModal="slick-carousel" 
+                        [config]="slideConfig">
+            <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                <img src="{{ slide.img }}" alt="" width="100%">
+            </div>
+        </ngx-slick-carousel>
+        <!-- <div class="products">
             <h2><strong>Sectors</strong> we serve</h2>
             <p>We excel in our work so that you excel in yours.</p>
             <ul>
@@ -12,6 +19,6 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </div> -->
     </div>
 </section>

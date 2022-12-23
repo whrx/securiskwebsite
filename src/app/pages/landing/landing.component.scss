@@ -27,6 +27,7 @@ section {
         background-image: url('https://firebasestorage.googleapis.com/v0/b/juteproducts.appspot.com/o/securisk%2Flanding-bg.jpg?alt=media&token=457b157c-397a-4d70-8e96-e588141ae318');
         background-size: cover;
         background-position: center;
+        margin-top: 125px;
         h2 {
             font-size: 38px;
             font-weight: 500;
@@ -92,6 +93,21 @@ section {
 
             }
         }
+    }
+}
+
+::ng-deep {
+    ngx-slick-carousel {
+        width: 100%;
+        max-height: 600px;
+    }
+    .slick-track {
+        // width: 100% !important;
+        height: inherit;
+    }
+    .slick-slide img {
+        height: 600px;
+        object-fit: cover;
     }
 }
 
