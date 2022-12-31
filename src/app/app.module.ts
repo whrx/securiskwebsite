@@ -1,3 +1,4 @@
+import { MatDialogModule } from '@angular/material/dialog';
 import { ProductsModule } from './pages/products/products.module';
 import { LeadershipTeamModule } from './pages/leadership-team/leadership-team.module';
 import { SectorModule } from './pages/sector/sector.module';
@@ -29,7 +30,8 @@ import { DisableRightClickDirective } from './disable-right-click.directive';
     LeadershipTeamModule,
     ProductsModule,
     ComponentsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatDialogModule
   ],
   providers: [
     {provide: LocationStrategy, useClass: HashLocationStrategy}

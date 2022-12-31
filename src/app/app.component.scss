@@ -13,6 +13,36 @@
     }
 }
 
+::ng-deep {
+    .cookies_container {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        p {
+            line-height: 1.5;
+            letter-spacing: .2px;
+            font-size: 15px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            button {
+                border: none;
+                padding: 10px 30px;
+                background: var(--primary-color);
+                color: #fff;
+                font-size: 15px;
+                font-weight: 500;
+                outline: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .landing_page {
         section {
