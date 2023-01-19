@@ -1,3 +1,4 @@
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { ComponentsModule } from './../../components/components.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -12,7 +13,8 @@ import { MatDialogModule } from '@angular/material/dialog';
   imports: [
     CommonModule,
     ComponentsModule,
-    MatDialogModule
+    MatDialogModule,
+    AngularFirestoreModule
   ]
 })
 export class LeadershipTeamModule { }

@@ -6,11 +6,11 @@
         <div class="sectors">
             <ul>
                 <li *ngFor="let item of sectors" [routerLink]="['/sector']" [queryParams]="{id: item.id}">
-                    <img class="sector_img" [src]="item.img" alt="">
+                    <img class="sector_img" [src]="item.image.fileUrl" alt="">
                     <div class="sector_details">
                         <div class="sector_name">{{item.name}}</div>
                         <div class="sector_icon">
-                            <img [src]="item.icon" alt="">
+                            <img [src]="item.icon.fileUrl" alt="">
                         </div>
                     </div>
                 </li>

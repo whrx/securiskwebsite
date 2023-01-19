@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-about-us',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
 
-  constructor() { }
+  public aboutUs: any = '';
+  constructor(private afs: AngularFirestore) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    await this.getAboutUs();
+  }
+
+  async getAboutUs() {
+    let res = await this.afs.collection('aboutUs').get().toPromise();
+    if (res) {
+      let data: any = res.docs[0].data();
+      this.aboutUs = data.data;
+    }
   }
 
 }

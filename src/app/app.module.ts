@@ -14,6 +14,8 @@ import { ComponentsModule } from './components/components.module';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DisableRightClickDirective } from './disable-right-click.directive';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { DisableRightClickDirective } from './disable-right-click.directive';
     ProductsModule,
     ComponentsModule,
     BrowserAnimationsModule,
-    MatDialogModule
+    MatDialogModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig)
   ],
   providers: [
     {provide: LocationStrategy, useClass: HashLocationStrategy}

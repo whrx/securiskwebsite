@@ -1,3 +1,4 @@
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ServicesComponent } from './services.component';
@@ -9,7 +10,8 @@ import { ServicesComponent } from './services.component';
     ServicesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AngularFirestoreModule
   ]
 })
 export class ServicesModule { }

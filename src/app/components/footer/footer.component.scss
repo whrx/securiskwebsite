@@ -12,16 +12,20 @@ footer {
         width: 100%;
         display: flex;
         padding-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
         .comp_details {
             width: 25%;
             padding-right: 20px;
         }
         .address, .products {
-            width: 25%;
+            width: calc(100% / var(--span));
             padding-right: 20px;
+            margin-top: 20px;
         }
         .chat_container {
-            width: 25%;
+            width: calc(100% / var(--span));
+            margin-top: 20px;
             form {
                 width: 100%;
                 div {
@@ -162,6 +166,7 @@ footer {
                     i {
                         width: 22px;
                         height: 22px;
+                        color: #000;
                     }
                 }
             }

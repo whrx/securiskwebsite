@@ -13,11 +13,11 @@ const routes: Routes = [
   {path: '', redirectTo: 'landing', pathMatch: 'full'},
   {path: 'landing', component: LandingComponent},
   {path: 'about-us', component: AboutUsComponent},
-  {path: 'sectors', component: MaintananceComponent},
+  {path: 'sectors', component: SectorsComponent},
   {path: 'sector', component: SectorComponent},
-  {path: 'leadership-team', component: MaintananceComponent},
-  {path: 'products', component: MaintananceComponent},
-  {path: 'services', component: MaintananceComponent},
+  {path: 'leadership-team', component: LeadershipTeamComponent},
+  {path: 'products', component: ProductsComponent},
+  {path: 'services', component: ServicesComponent},
 ];
 
 @NgModule({

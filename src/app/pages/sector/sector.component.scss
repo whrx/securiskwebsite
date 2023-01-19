@@ -73,6 +73,9 @@ section {
                         align-items: center;
                         gap: 20px;
                         cursor: pointer;
+                        img {
+                            max-width: 50px;
+                        }
                     }
                 }
             }

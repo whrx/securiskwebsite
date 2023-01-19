@@ -2,24 +2,21 @@
     <div class="logo" [routerLink]="['/landing']">
         <app-logo></app-logo>
     </div>
-    <div class="top_container">
-        <div class="address">
-            <h4>Registered Office</h4>
-            <p>33, Ground Floor, Nirmal Chhaya <br>
-                Apartments, MIG Flats Block – C, <br>
-                Rishi Nagar Ludhiana 141001
-            </p>
+    <div class="top_container" [style.--span]="addresses.length + 1">
+        <div *ngFor="let item of addresses" class="address">
+            <h4>{{item.address_type}} Office</h4>
+            <p>{{item.address}}</p>
             <p>
                 TEL: 
-                <a href="tel:+91 7498443677">+91 7498443677</a>
+                <a href="tel:{{item.mobile}}">{{item.mobile}}</a>
             </p>
             <ul class="add_links">
-                <li><a href="https://wa.me/7498443677" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                <li><a href=""><i class="fas fa-map-marked-alt"></i></a></li>
-                <li><a href="mailto:info@securisk.in"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://wa.me/{{item.whatsappNumber}}" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="{{item.maps_link}}"><i class="fas fa-map-marked-alt"></i></a></li>
+                <li><a href="mailto:{{item.email}}"><i class="fas fa-envelope"></i></a></li>
             </ul>
         </div>
-        <div class="address">
+        <!-- <div class="address">
             <h4>Corporate Office</h4>
             <p># B – 406, 4th Floor, Mahavir Icon,<br>
                 Plot #  89 – 90, Sector 15, CBD <br>
@@ -50,7 +47,7 @@
                 <li><a href="https://www.google.com/maps/place/7J9WC96G%2BF3/@17.4111875,78.3751875,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x4da196bed8024b9a!8m2!3d17.4111875!4d78.3751875" target="_blank"><i class="fas fa-map-marked-alt"></i></a></li>
                 <li><a href="mailto:abhijit@securisk.in"><i class="fas fa-envelope"></i></a></li>
             </ul>
-        </div>
+        </div> -->
         <!-- <div class="products">
             <h4>Sitemap</h4>
             <ul class="prod_list">
@@ -84,18 +81,12 @@
             <a href="">Terms & Conditions</a> | <a href="">Disclaimer</a> | <a href="">Privacy & Security</a> | <a href="">Website Disclosure</a> | <a href="">Cookies</a> | <a href="">Customer Grievance Redressal</a> | <a href="">Code of Conduct</a>
         </div>
         <div class="btm_flex">
-            <p class="copyright">
-                Securisk Insurance Brokers (P) Ltd. <br><br>
-                IRDA Registration # 597, Validity May 1st 2013 – April 30th 2023, CIN : U67200PB2013PTC037781 <br><br>
-                <!-- Disclaimer: Insurance is a Subject Matter of Solicitation <br><br> -->
-                © 2022 Securisk Insurance Brokers (P) Ltd. All rights reserved.
-
-            </p>
+            <div class="copyright" [innerHTML]="footerData.data"></div>
             <div class="media">
                 <ul>
-                    <li><i class="fab fa-facebook-f"></i></li>
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-youtube"></i></li>
+                    <li><a [href]="footerData.facebookLink"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a [href]="footerData.twitterLink"><i class="fab fa-twitter"></i></a></li>
+                    <li><a [href]="footerData.youtubeLink"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>

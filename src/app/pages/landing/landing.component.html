@@ -8,17 +8,17 @@
                 <img src="{{ slide.img }}" alt="" width="100%">
             </div>
         </ngx-slick-carousel>
-        <!-- <div class="products">
+        <div class="products">
             <h2><strong>Sectors</strong> we serve</h2>
             <p>We excel in our work so that you excel in yours.</p>
             <ul>
                 <li *ngFor="let item of sectors">
                     <div class="product" [routerLink]="['/sector']" [queryParams]="{id: item.id}">
-                        <img [src]="item.icon" alt="">
+                        <img [src]="item.icon.fileUrl" alt="">
                         <h5>{{item.name}}</h5>
                     </div>
                 </li>
             </ul>
-        </div> -->
+        </div>
     </div>
 </section>

@@ -1,3 +1,4 @@
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { RouterModule } from '@angular/router';
 import { ComponentsModule } from './../../components/components.module';
 import { LandingComponent } from './landing.component';
@@ -15,7 +16,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     CommonModule,
     ComponentsModule,
     RouterModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    AngularFirestoreModule
   ],
   exports: [
     LandingComponent

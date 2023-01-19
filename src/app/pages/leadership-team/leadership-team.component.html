@@ -8,7 +8,7 @@
                 <ng-container>
                     <li *ngFor="let item of leadershipTeam" class="member" (click)="showMemberDetails(item)">
                         <div class="mem_img">
-                            <img [src]="item.image" alt="">
+                            <img [src]="item.image?.fileUrl" alt="">
                             <div class="img_top">
                                 <div class="arrow">
                                     <i class='fa fa-long-arrow-alt-right'></i>
